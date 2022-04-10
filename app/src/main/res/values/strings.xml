@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">fake_call</string>
+
+    <string name="k">Keypad</string>
+    <string name="r">Record</string>
+    <string name="o">On hold</string>
+    <string name="m">Mute</string>
+    <string name="a">Add Calls</string>
+    <string name="c">Contacts</string>
+    <string name="s">Speaker</string>
+    <string name="audio">audio</string>
+</resources>

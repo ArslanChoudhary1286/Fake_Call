@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+
+    <Switch
+        android:id="@+id/shakeSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="Receive Call when you shake your phone."
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <Switch
+        android:id="@+id/buttonSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="Receive Call when you press the power button two times."
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <TextView
+        android:id="@+id/scheduleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule Calls"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <TextView
+        android:id="@+id/shareTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share App"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="MEDIUM_RECTANGLE"
+        app:adUnitId="ca-app-pub-5386510617974960/6752791205">
+
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
